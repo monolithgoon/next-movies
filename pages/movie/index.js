@@ -19,6 +19,7 @@ import LINKS from 'utils/constants/links';
 import checkEmptyObject from 'utils/helpers/checkEmptyObject';
 
 const Movie = () => {
+  
   const dispatch = useDispatch();
   const general = useSelector(state => state.general);
   const movie = useSelector(state => state.movie);
