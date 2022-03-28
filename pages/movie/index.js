@@ -35,6 +35,7 @@ const Movie = () => {
 	}, [dispatch]);
 
 	useEffect(() => {
+
 		if (checkEmptyObject(query)) return;
 
 		const initialMovieId = Router.query[QUERY_PARAMS.ID];
@@ -59,11 +60,13 @@ const Movie = () => {
 	}, [dispatch, query]);
 
 	useEffect(() => {
+
 		if (!movieId) return;
 
 		scroll.scrollToTop({ smooth: true, delay: 500 });
 
 		dispatch(getMovie(movieId));
+
 	}, [movieId, dispatch]);
 
 	useEffect(() => {
