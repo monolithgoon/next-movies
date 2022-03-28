@@ -19,6 +19,7 @@ import checkEmptyObject from "utils/helpers/checkEmptyObject";
 const Movie = () => {
   
 	const dispatch = useDispatch();
+	// TODO > UNDERSTAND useSelector();
 	const general = useSelector((state) => state.general);
 	const movie = useSelector((state) => state.movie);
 	const recommendedMovies = useSelector((state) => state.recommendedMovies);
