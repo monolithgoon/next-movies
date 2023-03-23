@@ -3,6 +3,8 @@
 
 This is a Movies App built using Next.js and [The Movie Database (TMDB)](https://www.themoviedb.org/) API. 
 
+![next-movies-1](https://user-images.githubusercontent.com/60096838/227189097-92b085be-e81d-4478-a813-87297c26f52a.png)
+
 ## Demo
 
 A [live deployment](https://movies.zaps.dev) of this app is available to try it out.
