@@ -56,11 +56,7 @@ Built with:
 * use-dark-mode
 * @artsy/fresnel
 * @loadable/component
-  
-## Authors
 
-- [@anton-karlovskiy](https://github.com/anton-karlovskiy)
-- [@addyosmani](https://github.com/addyosmani)
 
 Based on the original `create-react-app` foundation by [@fidalgodev](https://github.com/fidalgodev/movie-library-react).
 
